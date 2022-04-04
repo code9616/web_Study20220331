@@ -1,0 +1,65 @@
+.userbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    width: 975px;
+    border: 1px solid #dbdbdb;
+    overflow: hidden;
+}
+
+.a-box{
+    display: flex;
+    max-width: 975px;
+    width: 100%;
+    height: 800px;
+    
+}
+
+.list{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 236px;
+    height: 800px;
+    border: 1px solid #dbdbdb;
+}
+.list li{
+    padding: 16px 16px 16px 30px;
+    width: 236px;
+    height: 52px;
+}
+
+.list li a{
+    font-size: 16px;
+    
+}
+
+.profile{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 32px;
+    width: 800px;
+}
+
+.profile-img-border {
+    justify-content: center;
+    align-items: center;
+}
+
+.b-box{
+    display: flex;
+
+    width: 38px;
+    height: 38px;
+}
+.profile-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
